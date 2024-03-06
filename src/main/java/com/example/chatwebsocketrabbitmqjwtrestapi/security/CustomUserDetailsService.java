@@ -1,9 +1,8 @@
-package com.example.chatwebsocketkafkajwtrestapi.security;
+package com.example.chatwebsocketrabbitmqjwtrestapi.security;
 
-import com.example.chatwebsocketkafkajwtrestapi.exception.NotFoundException;
-import com.example.chatwebsocketkafkajwtrestapi.model.User;
-import com.example.chatwebsocketkafkajwtrestapi.repository.UserRepository;
-import lombok.AllArgsConstructor;
+import com.example.chatwebsocketrabbitmqjwtrestapi.exception.NotFoundException;
+import com.example.chatwebsocketrabbitmqjwtrestapi.model.User;
+import com.example.chatwebsocketrabbitmqjwtrestapi.repository.UserRepository;
 import org.springframework.security.core.GrantedAuthority;
 import org.springframework.security.core.authority.SimpleGrantedAuthority;
 import org.springframework.security.core.userdetails.UserDetails;

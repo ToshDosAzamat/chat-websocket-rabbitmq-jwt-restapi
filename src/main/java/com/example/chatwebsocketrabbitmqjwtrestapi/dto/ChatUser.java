@@ -1,4 +1,4 @@
-package com.example.chatwebsocketkafkajwtrestapi.dto;
+package com.example.chatwebsocketrabbitmqjwtrestapi.dto;
 
 
 import lombok.Data;

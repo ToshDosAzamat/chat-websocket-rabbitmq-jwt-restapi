@@ -1,4 +1,4 @@
-package com.example.chatwebsocketkafkajwtrestapi.model;
+package com.example.chatwebsocketrabbitmqjwtrestapi.model;
 
 
 import jakarta.persistence.*;

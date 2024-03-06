@@ -1,10 +1,8 @@
-package com.example.chatwebsocketkafkajwtrestapi.controller;
+package com.example.chatwebsocketrabbitmqjwtrestapi.controller;
 
 
-import com.example.chatwebsocketkafkajwtrestapi.component.JwtTokenProvider;
-import com.example.chatwebsocketkafkajwtrestapi.exception.NotFoundException;
-import com.example.chatwebsocketkafkajwtrestapi.model.User;
-import com.example.chatwebsocketkafkajwtrestapi.repository.UserRepository;
+import com.example.chatwebsocketrabbitmqjwtrestapi.component.JwtTokenProvider;
+import com.example.chatwebsocketrabbitmqjwtrestapi.repository.UserRepository;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;

@@ -1,8 +1,8 @@
-package com.example.chatwebsocketkafkajwtrestapi.config;
+package com.example.chatwebsocketrabbitmqjwtrestapi.config;
 
 
-import com.example.chatwebsocketkafkajwtrestapi.component.JwtAuthenticationEntryPoint;
-import com.example.chatwebsocketkafkajwtrestapi.component.JwtAuthenticationFilter;
+import com.example.chatwebsocketrabbitmqjwtrestapi.component.JwtAuthenticationEntryPoint;
+import com.example.chatwebsocketrabbitmqjwtrestapi.component.JwtAuthenticationFilter;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.security.authentication.AuthenticationManager;
@@ -40,7 +40,8 @@ public class SecurityConfig {
                 .csrf(csrf -> csrf.disable())
                 .sessionManagement(session -> session.sessionCreationPolicy(SessionCreationPolicy.STATELESS))
                 .authorizeHttpRequests((authorize) -> authorize
-                        .requestMatchers("/api/auth/**",
+                        .requestMatchers(
+                                "/api/auth/**",
                                 "/api/jwt/**",
                                 "/chat",
                                 "/wss/**",

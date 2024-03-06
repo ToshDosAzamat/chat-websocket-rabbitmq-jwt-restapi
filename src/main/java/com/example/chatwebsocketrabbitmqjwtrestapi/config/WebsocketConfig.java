@@ -1,8 +1,8 @@
-package com.example.chatwebsocketkafkajwtrestapi.config;
+package com.example.chatwebsocketrabbitmqjwtrestapi.config;
 
-import com.example.chatwebsocketkafkajwtrestapi.component.JwtTokenProvider;
-import com.example.chatwebsocketkafkajwtrestapi.exception.NotFoundException;
-import com.example.chatwebsocketkafkajwtrestapi.repository.UserRepository;
+import com.example.chatwebsocketrabbitmqjwtrestapi.component.JwtTokenProvider;
+import com.example.chatwebsocketrabbitmqjwtrestapi.exception.NotFoundException;
+import com.example.chatwebsocketrabbitmqjwtrestapi.repository.UserRepository;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.core.Ordered;
@@ -53,10 +53,13 @@ public class WebsocketConfig implements WebSocketMessageBrokerConfigurer {
     }
     @Override
     public void configureMessageBroker(MessageBrokerRegistry registry) {
-        registry.enableSimpleBroker("/topic");
         registry.setApplicationDestinationPrefixes("/app");
+        registry.enableStompBrokerRelay("/topic")
+                .setRelayHost("localhost")
+                .setRelayPort(61613)
+                .setClientLogin("guest")
+                .setClientPasscode("guest");
     }
-
     @Override
     public void configureClientInboundChannel(ChannelRegistration registration) {
         registration.interceptors(new ChannelInterceptor() {

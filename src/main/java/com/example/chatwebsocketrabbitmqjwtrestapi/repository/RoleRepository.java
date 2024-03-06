@@ -1,6 +1,6 @@
-package com.example.chatwebsocketkafkajwtrestapi.repository;
+package com.example.chatwebsocketrabbitmqjwtrestapi.repository;
 
-import com.example.chatwebsocketkafkajwtrestapi.model.Role;
+import com.example.chatwebsocketrabbitmqjwtrestapi.model.Role;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 import java.util.Optional;

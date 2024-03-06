@@ -1,7 +1,7 @@
-package com.example.chatwebsocketkafkajwtrestapi.component;
+package com.example.chatwebsocketrabbitmqjwtrestapi.component;
 
-import com.example.chatwebsocketkafkajwtrestapi.exception.NotFoundException;
-import com.example.chatwebsocketkafkajwtrestapi.model.User;
+import com.example.chatwebsocketrabbitmqjwtrestapi.exception.NotFoundException;
+import com.example.chatwebsocketrabbitmqjwtrestapi.model.User;
 import io.jsonwebtoken.*;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Value;

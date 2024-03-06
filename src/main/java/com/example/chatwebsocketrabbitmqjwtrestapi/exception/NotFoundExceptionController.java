@@ -1,12 +1,11 @@
-package com.example.chatwebsocketkafkajwtrestapi.exception;
+package com.example.chatwebsocketrabbitmqjwtrestapi.exception;
 
 
-import com.example.chatwebsocketkafkajwtrestapi.dto.ExceptionMessage;
+import com.example.chatwebsocketrabbitmqjwtrestapi.dto.ExceptionMessage;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.ExceptionHandler;
 import org.springframework.web.bind.annotation.RestControllerAdvice;
-import org.springframework.web.servlet.resource.NoResourceFoundException;
 
 import java.util.Date;
 

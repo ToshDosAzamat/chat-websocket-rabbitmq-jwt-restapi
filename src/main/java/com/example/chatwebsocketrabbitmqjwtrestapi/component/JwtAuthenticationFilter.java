@@ -1,4 +1,4 @@
-package com.example.chatwebsocketkafkajwtrestapi.component;
+package com.example.chatwebsocketrabbitmqjwtrestapi.component;
 
 import jakarta.servlet.FilterChain;
 import jakarta.servlet.ServletException;

@@ -1,18 +1,18 @@
-package com.example.chatwebsocketkafkajwtrestapi.service.implement;
+package com.example.chatwebsocketrabbitmqjwtrestapi.service.implement;
 
 
-import com.example.chatwebsocketkafkajwtrestapi.component.JwtTokenProvider;
-import com.example.chatwebsocketkafkajwtrestapi.dto.ChatUser;
-import com.example.chatwebsocketkafkajwtrestapi.dto.SignIn;
-import com.example.chatwebsocketkafkajwtrestapi.dto.SignUp;
-import com.example.chatwebsocketkafkajwtrestapi.dto.Status;
-import com.example.chatwebsocketkafkajwtrestapi.exception.NotFoundException;
-import com.example.chatwebsocketkafkajwtrestapi.model.Role;
-import com.example.chatwebsocketkafkajwtrestapi.model.User;
-import com.example.chatwebsocketkafkajwtrestapi.repository.RoleRepository;
-import com.example.chatwebsocketkafkajwtrestapi.repository.UserRepository;
-import com.example.chatwebsocketkafkajwtrestapi.service.AuthService;
-import com.example.chatwebsocketkafkajwtrestapi.service.EmailService;
+import com.example.chatwebsocketrabbitmqjwtrestapi.component.JwtTokenProvider;
+import com.example.chatwebsocketrabbitmqjwtrestapi.dto.ChatUser;
+import com.example.chatwebsocketrabbitmqjwtrestapi.dto.SignIn;
+import com.example.chatwebsocketrabbitmqjwtrestapi.dto.SignUp;
+import com.example.chatwebsocketrabbitmqjwtrestapi.dto.Status;
+import com.example.chatwebsocketrabbitmqjwtrestapi.exception.NotFoundException;
+import com.example.chatwebsocketrabbitmqjwtrestapi.model.Role;
+import com.example.chatwebsocketrabbitmqjwtrestapi.model.User;
+import com.example.chatwebsocketrabbitmqjwtrestapi.repository.RoleRepository;
+import com.example.chatwebsocketrabbitmqjwtrestapi.repository.UserRepository;
+import com.example.chatwebsocketrabbitmqjwtrestapi.service.AuthService;
+import com.example.chatwebsocketrabbitmqjwtrestapi.service.EmailService;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.security.authentication.AuthenticationManager;
 import org.springframework.security.authentication.UsernamePasswordAuthenticationToken;

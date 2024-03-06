@@ -1,10 +1,10 @@
-package com.example.chatwebsocketkafkajwtrestapi.controller;
+package com.example.chatwebsocketrabbitmqjwtrestapi.controller;
 
 
-import com.example.chatwebsocketkafkajwtrestapi.dto.ChatUser;
-import com.example.chatwebsocketkafkajwtrestapi.dto.SignIn;
-import com.example.chatwebsocketkafkajwtrestapi.dto.SignUp;
-import com.example.chatwebsocketkafkajwtrestapi.service.AuthService;
+import com.example.chatwebsocketrabbitmqjwtrestapi.dto.ChatUser;
+import com.example.chatwebsocketrabbitmqjwtrestapi.dto.SignIn;
+import com.example.chatwebsocketrabbitmqjwtrestapi.dto.SignUp;
+import com.example.chatwebsocketrabbitmqjwtrestapi.service.AuthService;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;

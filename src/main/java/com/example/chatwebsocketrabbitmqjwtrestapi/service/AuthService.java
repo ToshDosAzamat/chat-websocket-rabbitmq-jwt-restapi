@@ -1,10 +1,8 @@
-package com.example.chatwebsocketkafkajwtrestapi.service;
+package com.example.chatwebsocketrabbitmqjwtrestapi.service;
 
-import com.example.chatwebsocketkafkajwtrestapi.dto.ChatUser;
-import com.example.chatwebsocketkafkajwtrestapi.dto.SignIn;
-import com.example.chatwebsocketkafkajwtrestapi.dto.SignUp;
-import org.springframework.security.core.userdetails.UserDetails;
-import org.springframework.security.core.userdetails.UserDetailsService;
+import com.example.chatwebsocketrabbitmqjwtrestapi.dto.ChatUser;
+import com.example.chatwebsocketrabbitmqjwtrestapi.dto.SignIn;
+import com.example.chatwebsocketrabbitmqjwtrestapi.dto.SignUp;
 
 public interface AuthService {
     ChatUser signin(SignIn signIn);

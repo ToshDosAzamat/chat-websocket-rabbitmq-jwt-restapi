@@ -1,7 +1,7 @@
-package com.example.chatwebsocketkafkajwtrestapi.model;
+package com.example.chatwebsocketrabbitmqjwtrestapi.model;
 
 
-import com.example.chatwebsocketkafkajwtrestapi.dto.Status;
+import com.example.chatwebsocketrabbitmqjwtrestapi.dto.Status;
 import jakarta.persistence.*;
 import lombok.*;
 

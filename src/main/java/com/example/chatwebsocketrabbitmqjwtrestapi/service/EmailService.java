@@ -1,7 +1,7 @@
-package com.example.chatwebsocketkafkajwtrestapi.service;
+package com.example.chatwebsocketrabbitmqjwtrestapi.service;
 
 
-import com.example.chatwebsocketkafkajwtrestapi.exception.NotFoundException;
+import com.example.chatwebsocketrabbitmqjwtrestapi.exception.NotFoundException;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.mail.MailException;
 import org.springframework.mail.SimpleMailMessage;
